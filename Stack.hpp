@@ -1,5 +1,13 @@
 #include <stdlib.h>
-#include <iostream>
+
+/*
+Header-File containing Stack data structure
+
+Object get copied into Stack and then may be released.
+WARNING: You need to know the type of the object you want to release.
+         If not used properly you corrupt values of the whole stack.
+
+*/
 
 class Stack{
 public:
